@@ -1,22 +1,22 @@
 ### 🚀 How to Run the Voice AI Backend
 
-1. *Install dependencies*  
+1. Install dependencies  
    
    pip install -r requirements.txt
    
 
-2. *Activate virtual environment*  
+2. Activate virtual environment  
    
    venv\Scripts\activate   (Windows)
    source venv/bin/activate (Mac/Linux)
    
 
-3. *Run the server*  
+3. Run the server 
    
    uvicorn main:app --reload
    
 
-4. *Test it in browser*  
+4. Test it in browser  
    Go to:  
    
    http://127.0.0.1:8000/docs
